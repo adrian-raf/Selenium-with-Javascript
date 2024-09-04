@@ -1,0 +1,24 @@
+{
+  "name": "belajarselenium",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "mocha --reporter mochawesome --no-timeouts",
+    "testAllure": "mocha --reporter mocha-allure-reporter"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^5.1.1",
+    "image-downloader": "^4.3.0",
+    "selenium-webdriver": "^4.18.1"
+  },
+  "devDependencies": {
+    "mocha": "^10.4.0",
+    "mocha-allure-reporter": "^1.4.0",
+    "mochawesome": "^7.1.3"
+  }
+}
